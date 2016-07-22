@@ -232,33 +232,51 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setMyLocationEnabled(true);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(13.716630, 100.487487),13));
 
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.735798, 100.492341)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดบุปผาราม").snippet("พระอารามหลวง,13.735798, 100.492341"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.739948, 100.491204)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดกัลยานมิตร").snippet("พระอารามหลวง,13.739948, 100.491204"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.728924, 100.490469)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดหิรัญรูจีวรวิหาร").snippet("พระอารามหลวง,13.728924, 100.490469"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.719178, 100.485974)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดใหญ่ศรีสุพรรณ").snippet("วัดราษฏร์,13.719178, 100.485974"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.732347, 100.489228)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบางไส้ไก่").snippet("วัดราษฏร์,13.732347, 100.489228"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.734278, 100.488092)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดประดิษฐาราม").snippet("วัดราษฏร์,13.734278, 100.488092"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.725190, 100.486169)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดเวฬุราชิณ").snippet("พระอารามหลวง,13.725190, 100.486169"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.720930, 100.484056)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดโพธินิมิตสถิตมหาสีมาราม").snippet("พระอารามหลวง,13.720930, 100.484056"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.722727, 100.483277)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดอินทารามวรวิหาร").snippet("พระอารามหลวง,13.722727, 100.483277"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.737324, 100.495369)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดประยุรวงศาวาสวรวิหาร").snippet("พระอารามหลวง,13.737324, 100.495369"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.722384, 100.481108)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดจันทารามวรวิหาร").snippet("พระอารามหลวง,13.722384, 100.481108"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.721798, 100.479666)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดราชคฤห์วรวิหาร").snippet("พระอารามหลวง,13.721798, 100.479666"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.704214, 100.490526)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบางน้ำชน").snippet("วัดราษฏร์,13.704214, 100.490526"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.715359, 100.486108)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดกระจับพินิจ").snippet("วัดราษฏรม์,13.715359, 100.486108"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.696599, 100.488186)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดกลางดาวคนอง").snippet("วัดราษฏร์,13.696599, 100.488186"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.695921, 100.488491)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดดาวคนอง").snippet("วัดราษฏร์,13.695921, 100.488491"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.699800, 100.488770)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบุคคโล").snippet("พระอารามหลวง,13.699800, 100.488770"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.708958, 100.491758)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดราชวรินทร์").snippet("พระอารามหลวง,13.708958, 100.491758"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.706977, 100.488643)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดสันติธรรมาราม").snippet("พระอารามหลวง,13.706977, 100.488643"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.707980, 100.482146)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดสุทธาวาส").snippet("พระอารามหลวง,13.707980, 100.482146"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.718941, 100.479304)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดกันตทาราราม").snippet("พระอารามหลวง,13.718941, 100.479304"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.711757, 100.475893)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบางสะแกใน").snippet("พระอารามหลวง,13.711757, 100.475893"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.717944, 100.474997)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบางสะแกนอก").snippet("พระอารามหลวง,13.717944, 100.474997"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.711961, 100.468449)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดใหม่ยายนุ้ย").snippet("พระอารามหลวง,13.711961, 100.468449"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(13.719772, 100.470898)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดวรามาตยภัณฑสาราราม").snippet("พระอารามหลวง,13.719772, 100.470898"));
-    }
 
-}
+        //Create Marker
+        double douLat = getIntent().getDoubleExtra("Lat", 13.716630);
+        double douLng = getIntent().getDoubleExtra("Lng", 100.487487);
+        String strTitle = getIntent().getStringExtra("Title");
+        String strDetail = getIntent().getStringExtra("Detail");
+
+        LatLng latLng = new LatLng(douLat, douLng);
+
+        mMap.addMarker(new MarkerOptions()
+        .position(latLng)
+        .icon(BitmapDescriptorFactory.fromResource(R.drawable.build10))
+        .title(strTitle)
+        .snippet(strDetail));
+
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.735798, 100.492341)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดบุปผาราม").snippet("พระอารามหลวง,13.735798, 100.492341"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.739948, 100.491204)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดกัลยานมิตร").snippet("พระอารามหลวง,13.739948, 100.491204"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.728924, 100.490469)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดหิรัญรูจีวรวิหาร").snippet("พระอารามหลวง,13.728924, 100.490469"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.719178, 100.485974)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดใหญ่ศรีสุพรรณ").snippet("วัดราษฏร์,13.719178, 100.485974"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.732347, 100.489228)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบางไส้ไก่").snippet("วัดราษฏร์,13.732347, 100.489228"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.734278, 100.488092)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดประดิษฐาราม").snippet("วัดราษฏร์,13.734278, 100.488092"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.725190, 100.486169)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดเวฬุราชิณ").snippet("พระอารามหลวง,13.725190, 100.486169"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.720930, 100.484056)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดโพธินิมิตสถิตมหาสีมาราม").snippet("พระอารามหลวง,13.720930, 100.484056"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.722727, 100.483277)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดอินทารามวรวิหาร").snippet("พระอารามหลวง,13.722727, 100.483277"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.737324, 100.495369)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดประยุรวงศาวาสวรวิหาร").snippet("พระอารามหลวง,13.737324, 100.495369"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.722384, 100.481108)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดจันทารามวรวิหาร").snippet("พระอารามหลวง,13.722384, 100.481108"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.721798, 100.479666)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)).title("วัดราชคฤห์วรวิหาร").snippet("พระอารามหลวง,13.721798, 100.479666"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.704214, 100.490526)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบางน้ำชน").snippet("วัดราษฏร์,13.704214, 100.490526"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.715359, 100.486108)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดกระจับพินิจ").snippet("วัดราษฏรม์,13.715359, 100.486108"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.696599, 100.488186)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดกลางดาวคนอง").snippet("วัดราษฏร์,13.696599, 100.488186"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.695921, 100.488491)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดดาวคนอง").snippet("วัดราษฏร์,13.695921, 100.488491"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.699800, 100.488770)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบุคคโล").snippet("พระอารามหลวง,13.699800, 100.488770"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.708958, 100.491758)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดราชวรินทร์").snippet("พระอารามหลวง,13.708958, 100.491758"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.706977, 100.488643)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดสันติธรรมาราม").snippet("พระอารามหลวง,13.706977, 100.488643"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.707980, 100.482146)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดสุทธาวาส").snippet("พระอารามหลวง,13.707980, 100.482146"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.718941, 100.479304)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดกันตทาราราม").snippet("พระอารามหลวง,13.718941, 100.479304"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.711757, 100.475893)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบางสะแกใน").snippet("พระอารามหลวง,13.711757, 100.475893"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.717944, 100.474997)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดบางสะแกนอก").snippet("พระอารามหลวง,13.717944, 100.474997"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.711961, 100.468449)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดใหม่ยายนุ้ย").snippet("พระอารามหลวง,13.711961, 100.468449"));
+//        mMap.addMarker(new MarkerOptions().position(new LatLng(13.719772, 100.470898)).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)).title("วัดวรามาตยภัณฑสาราราม").snippet("พระอารามหลวง,13.719772, 100.470898"));
+//
+
+
+    }   // setup Map
+
+}   // Main Class
 
 
